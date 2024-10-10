@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,124 +11,77 @@
 </head>
 
 <body>
-    <!-- Menu et Logo -->
+    <!-- Menu and Logo -->
     <header>
         <a href="#" class="logo">Samy GHEMMOUR</a>
         <div class="toggle" onclick="toggleMenu();">&#9776;</div>
         <ul class="menu">
-            <li><a href="#home" onclick="toggleMenu();">Accueil</a></li>
-            <li><a href="#about" onclick="toggleMenu();">À propos</a></li>
-            <li><a href="#projects" onclick="toggleMenu();">Projets</a></li>
-            <li><a href="#experience" onclick="toggleMenu();">Expériences</a></li>
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#experience" onclick="toggleMenu();">Experience</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
         </ul>
     </header>
 
-    <!-- Bannière d'accueil -->
+    <!-- Home Banner -->
     <section class="banner" id="home">
         <div class="textBx">
-            <h2>Bienvenue sur mon portfolio<br><span>Samy GHEMMOUR</span></h2>
-            <a href="#about" class="btn">En savoir plus</a>
+            <h2>Welcome to my portfolio<br><span>Samy GHEMMOUR</span></h2>
+            <a href="#about" class="btn">Learn more</a>
         </div>
         <div class="w50">
-            <img src="https://github.com/Samy-gmr/samyghemmour.github.io/blob/main/img/me.png?raw=true" class="proPicture" alt="Photo de Samy Ghemmour">
+            <img src="https://github.com/Samy-gmr/samyghemmour.github.io/blob/main/img/me.png?raw=true" class="proPicture" alt="Photo of Samy Ghemmour">
         </div>
     </section>
 
-    <!-- À propos de moi -->
+    <!-- About Me -->
     <section class="about" id="about">
         <div class="heading">
-            <h2>À propos de moi</h2>
-            <p>Je suis spécialisé dans le développement de modèles de machine learning, l'analyse et la transformation de données, ainsi que la création de visualisations avec des outils comme Python, Power BI et SQL.</p>
-            <p>Mes expériences variées m'ont permis d'aborder des problématiques complexes dans des environnements dynamiques, en apportant des solutions pour améliorer la prise de décision et l'optimisation des performances.</p>
+            <h2>About Me</h2>
+            <p>I specialize in developing machine learning models, data analysis and transformation, as well as creating visualizations with tools like Python, Power BI, and SQL.</p>
+            <p>My diverse experiences have allowed me to tackle complex issues in dynamic environments, providing solutions to enhance decision-making and optimize performance.</p>
         </div>
     </section>
 
-    <!-- Projets -->
+    <!-- Projects -->
     <section class="projects" id="projects">
         <div class="heading">
-            <h2>Mes Projets</h2>
-            <p>Quelques exemples de mes réalisations</p>
+            <h2>My Projects</h2>
+            <p>Some examples of my work</p>
         </div>
         <div class="content">
             <div class="projectBx">
                 <a href="https://github.com/Samy-gmr" target="_blank">
-                    <img src="img/project1.jpg" alt="Projet 1">
-                    <p>Modèle de Machine Learning pour l'estimation de chiffre d'affaires</p>
+                    <img src="img/project1.jpg" alt="Project 1">
+                    <p>Machine Learning Model for Revenue Estimation</p>
                 </a>
             </div>
             <div class="projectBx">
                 <a href="https://github.com/Samy-gmr" target="_blank">
-                    <img src="img/project2.jpg" alt="Projet 2">
-                    <p>Outil d'analyse de données pour Carrefour</p>
+                    <img src="img/project2.jpg" alt="Project 2">
+                    <p>Data Analysis Tool for Carrefour</p>
                 </a>
             </div>
             <div class="projectBx">
                 <a href="https://github.com/Samy-gmr" target="_blank">
-                    <img src="img/project3.jpg" alt="Projet 3">
-                    <p>Visualisation de données avec Power BI</p>
+                    <img src="img/project3.jpg" alt="Project 3">
+                    <p>Data Visualization with Power BI</p>
                 </a>
             </div>
-            <!-- Ajoute d'autres projets ici -->
+            <!-- Add more projects here -->
         </div>
     </section>
 
-    <!-- Expériences -->
+    <!-- Experience -->
     <section class="experience" id="experience">
         <div class="heading">
-            <h2>Mes Expériences</h2>
+            <h2>My Experience</h2>
         </div>
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h3>In The Memory, Paris, France</h3>
-                    <h4>Data Scientist (Stage)</h4>
-                    <p>Avril 2024 - Septembre 2024</p>
-                    <p>Mise en place d'un modèle de Machine Learning pour estimer le chiffre d'affaires généré par des produits en promotion.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Longchamp, Paris, France</h3>
-                    <h4>Data Analyst (Stage)</h4>
-                    <p>Mars 2023 - Septembre 2023</p>
-                    <p>Conception et mise en place d'indicateurs de performance pour optimiser les processus de fabrication.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h3>Deloitte</h3>
-                    <h4>Data Analyst (Stage)</h4>
-                    <p>Janvier 2023 - Février 2023</p>
-                    <p>Création d'un modèle de prévisions des taux de défauts sur 12 mois.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <div class="heading">
-            <h2>Contact</h2>
-        </div>
-        <div class="social">
-            <a href="https://github.com/Samy-gmr" target="_blank" class="icon"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/samy-ghemmour/" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:samy.gh@gmail.com" class="icon"><i class="fas fa-envelope"></i></a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="copyright">
-            <p>&copy; 2024 Samy GHEMMOUR. Tous droits réservés.</p>
-        </div>
-    </footer>
-</body>
-
-</html>
+                    <h4>Data Scientist (Internship)</h4>
+                    <p>April 2024 - Septembe
