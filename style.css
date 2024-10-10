@@ -27,6 +27,12 @@ header .logo {
     padding-left: 20px;
 }
 
+header .toggle {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
 header .menu {
     list-style: none;
     display: flex;
@@ -60,18 +66,18 @@ header .menu a:hover {
     align-items: center;
     text-align: center;
     padding-top: 100px;
-    color: #000; /* Suppression de la couleur blanche par défaut pour le texte */
+    color: #000;
 }
 
 .banner h2 {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #000; /* Couleur noire pour h2 */
+    color: #000;
 }
 
 .banner h3 {
     font-size: 24px;
-    color: #000; /* Couleur noire pour h3 */
+    color: #000;
 }
 
 .banner .btn {
@@ -99,4 +105,53 @@ section {
 /* À propos de moi */
 .about {
     background-color: #fff;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact */
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Footer */
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
 }
