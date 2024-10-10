@@ -58,18 +58,20 @@ header .menu a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
     text-align: center;
     padding-top: 100px;
+    color: #000; /* Suppression de la couleur blanche par défaut pour le texte */
 }
 
 .banner h2 {
     font-size: 48px;
     margin-bottom: 20px;
+    color: #000; /* Couleur noire pour h2 */
 }
 
 .banner h3 {
     font-size: 24px;
+    color: #000; /* Couleur noire pour h3 */
 }
 
 .banner .btn {
@@ -96,4 +98,5 @@ section {
 
 /* À propos de moi */
 .about {
-    background-color: #fff
+    background-color: #fff;
+}
